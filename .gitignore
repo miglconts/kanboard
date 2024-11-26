@@ -27,3 +27,32 @@ data/config.php
 node_modules
 .phpunit.result.cache
 app/version.txt
+vendor/
+# Configuración sensible
+config.php
+
+# Directorios de datos y caché
+data/
+cache/
+tmp/
+
+# Dependencias
+vendor/
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos del editor
+.idea/
+.vscode/
+
+# Archivos temporales
+*.cache
+*.bak
+*.swp
